@@ -1,0 +1,13 @@
+body {
+    background-color: #69A5DC;
+    color: darkred;
+}
+/* Rectangle 7 */
+#rectangle{
+    position: absolute;
+    width: 227px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    background: #FDB9B9;
+}
