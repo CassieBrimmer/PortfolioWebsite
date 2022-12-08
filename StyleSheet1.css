@@ -3,11 +3,183 @@ body {
     color: darkred;
 }
 /* Rectangle 7 */
-#rectangle{
+#sideBar{
     position: absolute;
-    width: 227px;
-    height: 1024px;
+    width: 15%;
+    height: 100%;
     left: 0px;
     top: 0px;
     background: #FDB9B9;
+}
+
+/* Kaggle */
+#kaggleLink{
+position: absolute;
+width: 13%;
+height: 8%;
+left: 1%;
+top: 4%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0038FF;
+}
+
+#linkedIn{
+    /* LinkedIn */
+
+position: absolute;
+width: 15%;
+height: 7%;
+left: 1%;
+top: 13%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0038FF;
+}
+
+#resumePDF{
+/* Resume.pdf */
+
+position: absolute;
+width: 10%;
+height: 6%;
+left: 1%;
+top: 85%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0038FF;
+}
+
+#resumeTEX{
+/* Resume.tex */
+
+position: absolute;
+width: 10%;
+height: 6%;
+left: 1%;
+top: 91%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 31px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0038FF;
+}
+
+#gitHub{
+/* GitHub */
+
+position: absolute;
+width: 16%;
+height: 8%;
+left: 1%;
+top: 23%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0038FF;
+}
+
+.profilePic{
+position: absolute;
+width: 20%;
+height: 40%;
+left: 26%;
+top: 30%;
+border-radius:50%;
+}
+
+#blurb{
+position: absolute;
+width: 720px;
+height: 199px;
+left: 50%;
+top: 30%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#projectLink{
+/* Projects */
+position: absolute;
+width: 15%;
+height: 6%;
+left: 55%;
+top: 65%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9FDCAC;
+}
+
+#aboutLink{
+/* About */
+position: absolute;
+width: 15%;
+height: 6%;
+left: 63%;
+top: 65%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: medium;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9FDCAC;
 }
