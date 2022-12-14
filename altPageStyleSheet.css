@@ -1,0 +1,90 @@
+body{
+}
+
+#topBar{
+/* Rectangle 2 */
+position: absolute;
+width: 100%;
+height: 17%;
+left: 0px;
+top: 0px;
+
+background: #69A5DC;
+}
+
+#logo{
+/* Cassandra Brimmer Portfolio */
+
+position: absolute;
+width: 12%;
+height: 40%;
+left: 1%;
+top: 30%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 150%;
+line-height: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#projects{
+/* Projects */
+
+position: absolute;
+width: 10%;
+height: 5%;
+left: 34%;
+top: 40%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 150%;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FDB9B9;
+}
+
+#about{
+/* About */
+
+position: absolute;
+width: 7%;
+height: 5%;
+left: 58%;
+top: 40%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 150%;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FDB9B9;
+}
+
+#triangle{
+/* Polygon 2 */
+
+position: absolute;
+width: 0px;
+height: 0px;
+left: 39.5%;
+top: 40%;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 13px solid #fDB9B9;
+background-color: transparent;
+}
