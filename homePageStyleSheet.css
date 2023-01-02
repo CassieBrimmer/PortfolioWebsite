@@ -166,9 +166,9 @@ color: #FFFFFF;
 #projectLink{
 /* Projects */
 position: absolute;
-width: 15%;
+width: 6%;
 height: 6%;
-left: 60%;
+left: 55%;
 top: 65%;
 
 font-family: 'Inika';
@@ -180,13 +180,14 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #9FDCAC;
+color: #041628;
+background:#9FDCAC;
 }
 
 #aboutLink{
 /* About */
 position: absolute;
-width: 15%;
+width: 5%;
 height: 6%;
 left: 73%;
 top: 65%;
@@ -200,5 +201,6 @@ display: flex;
 align-items: center;
 text-align: center;
 
-color: #9FDCAC;
+color: #041628;
+background:#9FDCAC;
 }
