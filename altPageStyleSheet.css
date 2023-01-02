@@ -117,6 +117,181 @@ align-items: center;
 color: #041628;
 }
 
+#ThisSiteTitle{
+position:absolute;
+width:30%;
+height:30%;
+left: 10%;
+top: 30%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 500%;
+line-height: 100%;
+display: flex;
+align-items: center;
+
+color: #00BC29;
+}
+
+.ThisSiteImage{
+width:45%;
+height:60%;
+left: 33%;
+top: 30%;
+position: absolute;
+}
+
+#ThisSiteDescr{
+position: absolute;
+width: 30%;
+height: 30%;
+left: 10%;
+top: 100%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: #041628;
+}
+
+#ThisSiteTech{
+position: absolute;
+width: 10%;
+height: 30%;
+left: 85%;
+top: 40%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+align-items: center;
+
+color: #041628;
+}
+
+#StrokeTitle{
+position:absolute;
+width:30%;
+height:30%;
+left: 65%;
+top: 20%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 500%;
+line-height: 100%;
+display: flex;
+align-items: center;
+
+color: #006ED4;
+}
+
+#StrokeDescr{
+position: absolute;
+width: 30%;
+height: 30%;
+left: 70%;
+top: 200%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: white;
+}
+
+#StrokeTech{
+position: absolute;
+width: 10%;
+height: 30%;
+left: 10%;
+top: 200%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+align-items: center;
+
+color: white;
+}
+
+#JavaFXTitle{
+position:absolute;
+width:30%;
+height:30%;
+left: 65%;
+top: 20%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 500%;
+line-height: 100%;
+display: flex;
+align-items: center;
+
+color: #006ED4;
+}
+
+#JavaFXDescr{
+position: absolute;
+width: 30%;
+height: 30%;
+left: 70%;
+top: 200%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+
+color: white;
+}
+
+#JavaFXTech{
+position: absolute;
+width: 10%;
+height: 30%;
+left: 10%;
+top: 200%;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+align-items: center;
+
+color: white;
+}
+
+.JavaFXImage{
+width:45%;
+height:60%;
+left: 33%;
+top: 30%;
+position: absolute;
+}
+
 #MoleCoreTitle{
 position:absolute;
 width:30%;
@@ -199,13 +374,25 @@ background:#041628;
   margin: auto;
 }
 
+.slideshow-container2 {
+  width:50%;
+  left: 15%;
+  top: 20%;
+  position: absolute;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
 display: none;
 }
 
+.mySlides2{
+display:none;
+}
+
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next, .next2 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -226,8 +413,13 @@ display: none;
   border-radius: 3px 0 0 3px;
 }
 
+.next2{
+  right:10%;
+  border-radius: 3px 0 0 3px;
+}
+
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .next2:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
