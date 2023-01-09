@@ -218,8 +218,8 @@ color: white;
 position: absolute;
 width: 10%;
 height: 30%;
-left: 10%;
-top: 200%;
+left: 3%;
+top: 30%;
 
 font-family: 'Inika';
 font-style: normal;
@@ -271,8 +271,8 @@ color: white;
 position: absolute;
 width: 10%;
 height: 30%;
-left: 10%;
-top: 200%;
+left: 5%;
+top: 20%;
 
 font-family: 'Inika';
 font-style: normal;
@@ -285,10 +285,10 @@ color: white;
 }
 
 .JavaFXImage{
-width:45%;
-height:60%;
-left: 33%;
-top: 30%;
+width:40%;
+height:80%;
+left: 20%;
+top: 10%;
 position: absolute;
 }
 
@@ -369,7 +369,7 @@ background:#041628;
 .slideshow-container {
   width:30%;
   left: 50%;
-  top: 190%;
+  top: 185%;
   position: absolute;
   margin: auto;
 }
